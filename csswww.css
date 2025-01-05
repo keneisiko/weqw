@@ -648,7 +648,11 @@ main>*:before {
     .main>*:before {
         color: white;
     }
-
+    .main{
+        position: relative;
+        top: 50%;
+        left: 50%;
+    }
     .burger.active .dropdown {
 
         transform: translateX(0);
