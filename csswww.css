@@ -722,7 +722,7 @@ main>*:before {
     }
 
     button {
-        width: 320px;
+        width: 80%;
         font-size: 14px;
         color: white;
         height: 50px;
