@@ -1,0 +1,838 @@
+* {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+
+}
+
+.imgdef {
+    background-image: url(img/eightimg.jpg);
+
+}
+
+.lastsec {
+    background-color: #776BFF;
+
+}
+
+.box>*,
+.box>*:after,
+.box>*:before {
+    overflow-wrap: break-word;
+    text-align: start;
+}
+
+.lastsec>*,
+.lastsec>*:after,
+.lastsec>*:before {
+    margin: auto;
+    overflow-wrap: break-word;
+}
+
+.text a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.numbers {
+    display: flex;
+    height: 24px;
+    align-items: center;
+}
+
+.txthead {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.q {
+    margin-right: 30px;
+}
+
+.w {
+    margin-left: 30px;
+}
+
+.txt {
+    color: white;
+}
+
+.firstimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/firstimg.jpg)
+}
+
+.num {
+    padding-bottom: 5px;
+}
+
+img {
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: none;
+}
+
+main>*,
+main>*:after,
+main>*:before {
+    margin: auto;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.gray {
+    border-top: 1px solid #787878;
+    color: #787878;
+    border-bottom: 1px solid #787878;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width:1280px) {
+    .img {
+        position: relative;
+        width: 328px;
+        height: 180px;
+    }
+
+    .img img {
+        display: block;
+        width: 328px;
+        height: 180px;
+    }
+
+    .gradient-overlay {
+        width: 328px;
+        height: 180px;
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+        z-index: 1;
+        transition: opacity 0.2s linear;
+    }
+
+    .img:hover .gradient-overlay {
+        opacity: 0;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .header {
+        width: 1024px;
+        height: 100px;
+    }
+
+    .about a {
+        padding: 5px;
+    }
+
+    .txthead {
+        font-size: 14px;
+        color: black;
+    }
+
+    .num {
+        height: 14px;
+        padding-bottom: 5px;
+    }
+
+    .txtl {
+        width: 245px;
+    }
+
+    .txthead:hover {
+        color: #776BFF;
+    }
+
+    main {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto auto auto auto auto auto auto auto auto auto;
+        align-items: center;
+        width: 1024px;
+        margin: auto;
+        grid-row-gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .firstimg {
+        height: 454px;
+        width: 100%;
+
+        margin-bottom: 40px;
+
+    }
+
+    .txtq {
+
+        width: 1024px;
+        margin: auto;
+    }
+
+    .text1 {
+        width: 701px;
+        /* padding-top:40px; */
+        margin: auto;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+
+    .text2 {
+        width: 579px;
+        margin: auto;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+
+    .secondsec {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        align-items: center;
+        height: 637px;
+        grid-row-gap: 20px;
+    }
+
+    .box {
+        height: 334px;
+    }
+
+    .bigtxt {
+        font-size: 24px;
+    }
+
+    .littxt {
+        font-size: 18px;
+    }
+
+    .arrow {
+        margin: auto;
+    }
+
+    .txt {
+        font-size: 60px;
+        width: 414px;
+        position: absolute;
+        top: 351px;
+        overflow-wrap: break-word;
+    }
+
+    .text {
+        font-size: 14px;
+        padding-top: 14px;
+        overflow-wrap: break-word;
+    }
+
+    button {
+        width: 320px;
+        margin: auto;
+        font-size: 18px;
+        height: 50px;
+        overflow: hidden;
+        transition: transform 0.1s ease;
+        cursor: pointer;
+    }
+
+    .midtxt {
+        font-size: 20px;
+    }
+
+    .verlittxt {
+        font-size: 16px;
+    }
+
+    .verbigtxt {
+        font-size: 40px;
+    }
+
+    .gray {
+        width: 195px;
+    }
+
+    .title {
+        padding-bottom: 14px;
+    }
+
+    .high {
+        height: 283px;
+    }
+
+    .imgdef {
+        background-size: cover;
+        background-position: center;
+        width: 1025px;
+        height: 454px;
+        color: white;
+
+    }
+
+    .afimgdef {
+        margin: auto;
+        width: 369px;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+
+    .ltxt {
+        width: 441px;
+    }
+
+    .lastsec {
+        width: 1024px;
+        display: grid;
+        grid-template-rows: 72px 1fr 96px 24px 95px 50px;
+        grid-row-gap: 40px;
+        color: white;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+    .lastsec button {
+        background-color: white;
+        color: #776BFF;
+    }
+
+    .foot {
+        margin: auto;
+        text-align: center;
+        font-size: 12px;
+        overflow-wrap: break-word;
+    }
+
+    .foottt {}
+
+    .imgdef div {
+
+        overflow-wrap: break-word;
+        width: 427px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .black:hover {
+        background-color: #776BFF;
+        transform: scale(1.02);
+        transition: 0.1s ease-in-out;
+    }
+
+    .whiteb:hover {
+        transform: scale(1.02);
+        transition: 0.1s ease-in-out;
+    }
+
+    .ftxt {
+        width: 407px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1280px) {
+    main {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 102px auto 1fr 50px 37px 941px 454px 57px 50px 653px 35px 30px 30px;
+        grid-row-gap: 40px;
+    }
+
+
+
+    .header {
+        width: 100%;
+        height: 100px;
+    }
+
+    .logo {
+        margin: auto 0 auto 22px;
+    }
+
+    .txthead {
+        font-size: 14px;
+    }
+
+    .txt {
+        font-size: 35px;
+        width: 673px;
+        height: auto;
+        position: absolute;
+        left: 36px;
+        top: 368px;
+    }
+
+    .numbers {
+        margin-right: 30px;
+    }
+
+    .firstimg {
+        margin-bottom: 40px;
+        width: 100%;
+        height: 345px;
+    }
+
+    .text1 {
+        width: 477px;
+    }
+
+    .black:hover {
+        background-color: #776BFF;
+        transform: scale(1.02);
+        transition: 0.1s ease-in-out;
+    }
+
+    .whiteb:hover {
+        transform: scale(1.02);
+        transition: 0.1s ease-in-out;
+    }
+
+    .text2 {
+        width: 360px;
+    }
+
+    .bigtxt {
+        font-size: 16px;
+    }
+
+    .midtxt {
+        font-size: 20px;
+    }
+
+    .littxt {
+        font-size: 14px;
+    }
+
+    button {
+        width: 320px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .gray {
+        width: 156px;
+    }
+
+    .about {
+        margin: auto;
+    }
+
+    .img {
+        position: relative;
+        width: 320px;
+        height: 180px;
+    }
+
+    .img img {
+        display: block;
+        width: 320px;
+        height: 180px;
+    }
+
+    .gradient-overlay {
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 180px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+        z-index: 1;
+        transition: opacity 0.2s linear;
+    }
+
+    .img:hover .gradient-overlay {
+        opacity: 0;
+    }
+
+    .secondsec {
+        display: grid;
+        grid-template-columns: repeat(2, 320px);
+        grid-template-rows: repeat(2, 277px) 307px;
+        grid-row-gap: 40px;
+        grid-column-gap: 40px;
+
+    }
+
+    .title {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .img {
+        width: 320px;
+        height: 180px;
+        margin-bottom: 14px;
+    }
+
+    .text a {
+        color: black;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .imgdef {
+        width: 100%;
+        height: 454px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/eightimg.jpg);
+
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+
+    .imgdef div {
+        width: 298px;
+        height: 162px;
+
+        text-align: center;
+        overflow-wrap: break-word;
+        color: white;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .lastsec {
+        width: 100%;
+        height: 533px;
+        display: grid;
+        grid-template-rows: auto 1fr 96px 19px 60px 50px;
+        grid-row-gap: 40px;
+        color: white;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+    .lastsec button {
+        margin: auto;
+        background-color: white;
+        color: #776BFF;
+    }
+
+    .verbigtxt {
+        font-size: 40px;
+    }
+
+    .verlittxt {
+        font-size: 12px;
+    }
+
+    .txtl {
+        width: 304px;
+    }
+
+    .ltxt {
+        width: 441px;
+    }
+
+    .lastsec>*,
+    .lastsec>*:after,
+    .lastsec>*:before {
+        overflow-wrap: break-word;
+        margin: auto;
+    }
+
+    .ftxt {
+        font-size: 8px;
+        width: 290px;
+        overflow-wrap: break-word;
+    }
+
+    .bigtxt {
+        font-size: 22px;
+    }
+
+    .afimgdef {
+        width: 244px;
+        height: 57px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .about {
+        display: none;
+    }
+
+    .numbers {
+        display: none;
+    }
+
+    .burger {
+        width: 40px;
+        height: 40px;
+        align-content: center;
+        margin-right: 30px;
+
+    }
+
+    .palka {
+        width: 23.33px;
+        height: 3.33px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        margin: auto;
+        transition: all 0.3s ease;
+        z-index: 4;
+    }
+
+    .f {
+        margin-top: 8.335px;
+    }
+
+    .s {
+        margin-top: 6.67px;
+        margin-bottom: 6.67px;
+    }
+
+    .t {
+        margin-bottom: 8.335px;
+    }
+
+    .dropdown {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        color: white;
+        transition: transform 0.2s ease-in-out;
+        transform: translateX(100%);
+    }
+
+    .main>*,
+    .main>*:after,
+    .main>*:before {
+        color: white;
+    }
+
+    .burger.active .dropdown {
+
+        transform: translateX(0);
+    }
+
+    .burger.active .palka:nth-child(1) {
+        transform: rotate(45deg) translate(7px, 7px);
+        background-color: white;
+        z-index: 4;
+    }
+
+    .burger.active .palka:nth-child(2) {
+        opacity: 0;
+        z-index: 4;
+    }
+
+    .burger.active .palka:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+        background-color: white;
+        z-index: 4;
+    }
+
+    .logo {
+        margin: auto 0 auto 22px;
+        z-index: -2;
+        margin-top: 27px;
+    }
+
+    .header {
+        display: flex;
+        width: 100vw;
+        position: fixed;
+        height: 100px;
+        background-color: white;
+        z-index: 2;
+    }
+    .headerdrop{
+        height: 100px;
+        width:100vw;
+    }
+    .firstimg {
+        padding-top: 100px;
+        height: 464px;
+        width: 100%;
+        background-image: url(img/mobimg.jpg);
+        margin-bottom: 40px;
+    }
+
+    .txt {
+        position: absolute;
+        width: 238px;
+        height: 84px;
+        top: 441px;
+        font-size: 35px;
+        left: 20px;
+    }
+
+    main {
+        display: grid;
+        grid-template-rows: repeat(2, auto) 1fr 50px auto auto 454px auto 50px auto repeat(3, auto);
+        grid-row-gap: 40px;
+        width: 100%;
+    }
+
+    .littxt {
+        font-size: 12px;
+    }
+
+    .bigtxt {
+        font-size: 16px;
+    }
+
+    button {
+        width: 320px;
+        font-size: 14px;
+        color: white;
+        height: 50px;
+        padding: auto;
+    }
+
+    .gray {
+        width: 156px;
+    }
+
+    .secondsec {
+        display: grid;
+        grid-template-rows: repeat(6, 307px);
+        grid-row-gap: 40px;
+        width: 320px;
+    }
+
+    .title {
+        text-align: start;
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .text {
+        font-size: 12px;
+        margin-top: 14px;
+        text-align: start;
+    }
+
+    .img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .text2 {
+        width: 232px;
+    }
+
+    .imgdef {
+        width: 100%;
+        height: 454px;
+        background-position: bottom;
+    }
+
+    .imgdef div {
+        font-size: 22px;
+        height: 162px;
+        color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        text-align: start;
+    }
+
+    main>*,
+    main>*:after,
+    main>*:before {
+        margin: auto;
+        width: 80%;
+    }
+
+    .bigtxt {
+        font-size: 16px;
+    }
+
+    .afimgdef {
+        width: 246px;
+        height: auto;
+    }
+
+    .lastsec {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto 1fr repeat(4, auto);
+        grid-row-gap: 40px;
+    }
+
+    .lastsec>*,
+    .lastsec>*:after,
+    .lastsec>*:before {
+        margin: auto;
+        width: 80%;
+        color: white;
+    }
+
+    .lastsec button {
+        background-color: white;
+        color: #776BFF;
+    }
+
+    .midtxt {
+        font-size: 16px;
+
+    }
+
+    .verbigtxt {
+        font-size: 40px;
+    }
+
+    .verlittxt {
+        font-size: 12px;
+    }
+
+    .littxt {
+        font-size: 14px;
+    }
+
+    .ftxt {
+        font-size: 8px;
+    }
+}
